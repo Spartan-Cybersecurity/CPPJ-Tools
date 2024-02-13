@@ -1,6 +1,6 @@
-# Herramientas de Pentesting para Juniors
+# Herramientas de Pentesting para Juniors - [CPPJ]
 
-Bienvenido al repositorio oficial de herramientas para el **Certificado profesional de pentesting para Juniors** de **SpartanCyberSecurity**. Este curso está diseñado para introducir a los aspirantes a pentesters en el arte y la ciencia detrás de las pruebas de penetración, combinando teoría con prácticas de laboratorio intensivas.
+Bienvenido al repositorio oficial de herramientas para el **[Certificado profesional de pentesting para Juniors](https://www.spartan-cybersec.com/cursos/pentesting-para-juniors/)** de **Spartan-Cybersecurity**. Este curso está diseñado para introducir a los aspirantes a pentesters en el arte y la ciencia detrás de las pruebas de penetración, combinando teoría con prácticas de laboratorio intensivas.
 
 ## :mortar_board: Acerca del Curso
 
@@ -43,4 +43,4 @@ Para soporte, por favor, visita nuestro foro de discusión del curso. Si deseas 
 
 ---
 
-Gracias por ser parte de esta aventura en ciberseguridad con **SpartanCyberSecurity**. ¡Juntos elevaremos tus habilidades de pentesting al próximo nivel!
+Gracias por ser parte de esta aventura en ciberseguridad con **Spartan-Cybersecurity**. ¡Juntos elevaremos tus habilidades de pentesting al próximo nivel!
